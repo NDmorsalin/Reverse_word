@@ -32,3 +32,12 @@ function methodReverce(str){
     }
 console.log(methodReverce(str));
 
+// short hand 
+
+function rvs(str){
+   return str.split("").reverse("").join("");
+}
+console.log("rvs " + rvs(str));
+
+
+
